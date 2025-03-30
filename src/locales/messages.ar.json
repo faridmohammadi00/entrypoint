@@ -1,0 +1,62 @@
+{
+    "validation_failed": "فشل التحقق",
+    "email_in_use": "البريد الإلكتروني مستخدم بالفعل",
+    "registration_success": "تم تسجيل المستخدم بنجاح! يرجى تأكيد بريدك الإلكتروني.",
+    "invalid_or_expired_token": "رمز التأكيد غير صالح أو منتهي الصلاحية",
+    "token_expired": "رمز التأكيد منتهي الصلاحية",
+    "user_not_found": "المستخدم غير موجود",
+    "email_confirmed": "تم تأكيد البريد الإلكتروني بنجاح. يمكنك الآن تسجيل الدخول.",
+    "invalid_credentials": "البريد الإلكتروني أو كلمة المرور غير صحيحة",
+    "email_not_confirmed": "لم يتم تأكيد البريد الإلكتروني. يرجى التحقق من صندوق الوارد.",
+    "login_success": "تم تسجيل الدخول بنجاح",
+    "internal_server_error": "خطأ في الخادم الداخلي",
+    "not_authorized": "غير مسموح لك بالقيام بهذا الإجراء",
+
+    "building_created": "تم إنشاء المبنى بنجاح",
+    "building_not_found": "لم يتم العثور على المبنى",
+    "building_updated": "تم تحديث المبنى بنجاح",
+    "building_deleted": "تم حذف المبنى بنجاح",
+
+    "doorman_assigned": "تم تعيين الحارس للمبنى بنجاح",
+    "doorman_removed": "تم إزالة الحارس من المبنى بنجاح",
+    "doorman_assignment_not_found": "لم يتم العثور على تعيين الحارس",
+    "no_doormen_assigned": "لا يوجد حراس معينون لهذا المبنى",
+    "invalid_doorman": "المستخدم ليس حارساً",
+    "doorman_already_assigned": "تم تعيين هذا الحارس بالفعل للمبنى",
+
+    "visitor_created": "تم إنشاء الزائر بنجاح",
+    "visitor_not_found": "لم يتم العثور على الزائر",
+    "visitor_updated": "تم تحديث معلومات الزائر بنجاح",
+    "visitor_deleted": "تم حذف الزائر بنجاح",
+    "visitor_already_exists": "الزائر بهذا الرقم التعريفي موجود بالفعل",
+
+    "visit_created": "تم تسجيل الزيارة بنجاح",
+    "visit_not_found": "لم يتم العثور على سجل الزيارة",
+    "visit_updated": "تم تحديث بيانات الزيارة بنجاح",
+    "visitor_not_registered": "الزائر غير مسجل في النظام",
+    "visit_check_out_updated": "تم تحديث وقت المغادرة للزيارة بنجاح",
+    "invalid_visit_status": "حالة الزيارة غير صالحة",
+
+    "plan_created": "تم إنشاء الخطة بنجاح",
+    "plan_not_found": "لم يتم العثور على الخطة",
+    "plan_updated": "تم تحديث الخطة بنجاح",
+    "plan_deleted": "تم حذف الخطة بنجاح",
+
+    "plan_activated": "تم تفعيل الخطة بنجاح",
+    "active_plan_not_found": "لم يتم العثور على الخطة النشطة",
+    "plan_cancelled": "تم إلغاء الخطة النشطة بنجاح",
+    "user_already_has_active_plan": "لدى المستخدم خطة نشطة بالفعل",
+    "cannot_cancel_expired_plan": "لا يمكن إلغاء خطة منتهية الصلاحية",
+    "invalid_plan_status": "حالة الخطة غير صالحة",
+    "active_plan_created": "تم إنشاء الخطة النشطة بنجاح",
+    "active_plan_cancelled": "تم إلغاء الخطة النشطة بنجاح",
+
+    "credit_transaction_created": "تم تسجيل المعاملة المالية بنجاح",
+    "credit_transaction_not_found": "لم يتم العثور على المعاملة المالية",
+    "credit_transaction_deleted": "تم حذف المعاملة المالية بنجاح",
+    "credit_transaction_restored": "تم استعادة المعاملة المالية بنجاح",
+    "invalid_credit_transaction_action": "إجراء المعاملة المالية غير صالح",
+    "invalid_credit_transaction_type": "نوع المعاملة المالية غير صالح",
+
+    "id_number_in_use": "رقم الهوية مسجل مسبقاً"
+}

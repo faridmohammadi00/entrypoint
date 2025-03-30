@@ -1,0 +1,21 @@
+services:
+  haladesk-app:
+    build: .
+    ports:
+      - "${APP_PORT}:${APP_PORT}"  # Map host:container port
+    environment:
+      - MONGO_URI=mongodb://haladesk-mongo:27017/haladesk  # Use service name and container port
+      - PORT=${APP_PORT}  # Port inside container
+    depends_on:
+      - haladesk-mongo
+
+  haladesk-mongo:
+    image: mongo:5.0
+    container_name: mongo
+    ports:
+      - "${MONGO_HOST_PORT}:27017"  # Host:Container port mapping
+    volumes:
+      - mongo_data:/data/db
+
+volumes:
+  mongo_data:
